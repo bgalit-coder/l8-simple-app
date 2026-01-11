@@ -6,7 +6,7 @@ data:
   index.html: |
     <html>
       <body style="font-family: Arial;">
-        <h1>Hello from ArgoCD 🎯</h1>
+        <h1>Hello from ArgoCD </h1>
         <p>If you see this, GitOps works.</p>
       </body>
     </html>
