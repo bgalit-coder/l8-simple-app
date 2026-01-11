@@ -1,0 +1,11 @@
+replicaCount: 2
+
+service:
+  type: ClusterIP
+
+containerPorts:
+  http: 8080
+
+extraEnvVars:
+  - name: WELCOME_MESSAGE
+    value: "Hello from Helm via ArgoCD"
